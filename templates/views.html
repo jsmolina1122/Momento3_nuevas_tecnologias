@@ -1,0 +1,20 @@
+{% extends "/layouts/main.html" %}
+{% block body %}
+       <div class="row">
+        <div class="col-4 offset-4">
+          <div class="card">
+            <img src= "https://cdn2.thecatapi.com/images/CAB-abAMS.jpg" class="card-img-top" alt="...">
+            <center><div class="card-body">
+              <h5 class="card-title">ID: {{ vote['id']}}</h5>
+              <p class="card-text">Value: {{ vote['value']}}</p>
+              <p class="card-text">Image: {{ vote['image_id']}}</p>
+              <p class="card-text">User: {{ vote['sub_id']}}</p>
+              <a href="/" class="btn btn-primary">Go Back</a>
+          </div></center>
+        </div>
+        </div>
+       </div>
+{% endblock %}
+    
+
+    

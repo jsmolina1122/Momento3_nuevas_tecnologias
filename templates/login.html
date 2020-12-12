@@ -1,0 +1,25 @@
+{% extends "/layouts/main.html" %}
+
+{% block body %}
+    <form method="POST" action="/login">
+      <div class="row mt-4" >
+        <div class="col-4 offset-4">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNEB015RYRH7blfe5PYPyh0mT_Q3kaICiqOw&usqp=CAU" height="20%">
+        </div>
+        </div>
+       </div>
+      <center><div class="mb-3">
+        <label for="username" class="form-label">Username </label>
+        <input type="text" class="form-control" id="username" name="username">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password </label>
+        <input type="password" class="form-control" id="password" name="password">
+      </div></center>
+   <center> <button type="submit" class="btn btn-primary">login</button></center>
+    </form>
+{% endblock %}
+    
+
+    

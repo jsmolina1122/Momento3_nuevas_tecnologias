@@ -1,0 +1,21 @@
+{% extends "/layouts/main.html" %}
+
+{% block body %}
+  <center><form method="POST" action="/save">
+      <div class="row mt-4" >
+        <div class="col-4 offset-4">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgVLZuPmAuCN9T5TgqMX0VytNmknLbEbq8Xg&usqp=CAU" height="20%">
+        </div>
+        </div>
+       </div>
+     <div class="mb-3">
+        <label for="value_input" class="form-label mt-4">Insert Value: 0(Not Like) ò 1(Like) </label>
+        <input type="number" class="form-control" id="value_input" name="value_input">
+      </div>
+        <button type="submit" class="btn btn-success">SAVE VOTE</button>
+    </form></center>
+{% endblock %}
+    
+
+    
