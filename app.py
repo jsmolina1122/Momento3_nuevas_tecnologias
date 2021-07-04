@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 from api.requests_api import RequestsApi
 from Models.Vote import Vote
 import random 
-
+aa
 app=Flask(__name__)
 app.secret_key="655rf677y8989y"
 
